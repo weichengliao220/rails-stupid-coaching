@@ -1,0 +1,19 @@
+<div class="card">
+  <div class="card-header">
+    <h2>Your Question is:</h2>
+  </div>
+  <div class="card-body">
+    <p style="font-weight: bold;">"<%= @question %>"</p>
+  </div>
+
+  <div class="card-header">
+    <h2>Your Answer is:</h2>
+  </div>
+  <div class="card-body">
+    <p style="font-weight: bold;">"<%= @answer %>"</p>
+  </div>
+</div>
+
+<div class="card-footer">
+  <%= link_to 'Ask Again', ask_path, class: 'btn btn-danger' %>
+</div>
